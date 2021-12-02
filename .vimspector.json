@@ -1,0 +1,24 @@
+{
+  "configurations": {
+    "Python_Test: Launch": {
+      "adapter": "debugpy",
+      "configuration": {
+        "name": "Python_Test: Launch",
+        "type": "python",
+        "request": "launch",
+        "python": "./.venv/bin/python",
+        "stopOnEntry": true,
+        "console": "externalTerminal",
+        "dubugOptions": [],
+        "program": "${file}",
+        "cwd": "${workspaceRoot}"
+      },
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": "Y"
+        }
+      }
+    }
+  }
+}
